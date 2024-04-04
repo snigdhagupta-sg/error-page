@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+/* Now, you can use the 'Inter' font family in your CSS */
+body {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #22232e;
+  max-width: 100%;
+  overflow: hidden;
+  height: 100vh;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  gap: 5rem;
+  /* background-color: red; */
+}
+.left {
+  font-size: calc(2rem - 2px);
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.right {
+  position: relative;
+  bottom: 1vw;
+  width: 500px;
+}
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+h1 {
+  color: #00c2cb;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.div2 {
+  color: rgb(213, 240, 243);
+  font-weight: light;
+  font-size: 1.2rem;
+}
+ul {
+  color: rgb(1, 164, 172);
+  font-size: larger;
+}
+li::marker {
+  color: rgb(213, 240, 243);
+}
+.search_container {
+  padding-top: 50px;
+  height: 20px;
+  width: 100%;
+}
+input {
+  height: 40px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: #ddd;
+  font-size: 20px;
+}
+input:focus {
+  border-radius: 10px;
+}
+.opts {
+  font-size: 30px;
+}
+.right {
+  position: relative;
+}
+.right img {
+  height: 600px;
+}
+ul {
+  margin-top: 70px;
+}
+li {
+  list-style: disc;
+  cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+  .box {
+    flex-wrap: wrap;
+  }
+  .box {
+    align-items: center;
+    width: 100%;
+  }
+  .left {
+    size-adjust: inherit;
+  }
+  h1 {
+    color: #00c2cb;
+    font-size: 35px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .div2 {
+    font-size: 20px;
+  }
+  ul {
+    color: rgb(1, 164, 172);
+    font-size: 6v;
+  }
+  .right img {
+    height: 20v;
+    height: 250px;
+  }
+  .right {
+    bottom: 10vw;
+    display: grid;
+    place-content: center;
+  }
+  .div1 {
+    justify-content: center;
+  }
+  .opts {
+    font-size: 17px;
+  }
+}
