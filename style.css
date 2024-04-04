@@ -81,8 +81,18 @@ ul {
   margin-top: 70px;
 }
 li {
+  color: rgb(1, 164, 172);
   list-style: disc;
   cursor: pointer;
+}
+a {
+  text-decoration-color: rgb(1, 164, 172);
+}
+a:hover {
+  text-decoration-color: rgb(203, 235, 237);
+}
+li:hover {
+  color: rgb(203, 235, 237);
 }
 @media screen and (max-width: 900px) {
   .box {
